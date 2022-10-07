@@ -1,0 +1,140 @@
+.product_title_info {
+  font-weight: 600;
+  color: #212245;
+}
+.Product_price_info {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #df2020;
+}
+.Product_price_info span {
+  font-size: 2rem;
+}
+.product_category_info {
+  color: #212245;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+.product_category_info span {
+  background-color: #fde4e4;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  padding: 6px 15px;
+}
+.item_img {
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.product_info {
+  margin-left: 50px;
+}
+.Tabs {
+  border-bottom: 1px solid #e6c9c9;
+}
+.Tabs h6 {
+  cursor: pointer;
+}
+.desc_title {
+  color: #212245;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 50px;
+}
+.name_review {
+  font-size: 0.8rem;
+  color: #212245;
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+}
+.email_review {
+  font-size: 0.8rem;
+  color: #000;
+}
+.des_review {
+  color: #212245b2;
+  font-weight: 500;
+}
+.personal_review {
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid #212245;
+}
+.form {
+  width: 60%;
+  margin: auto;
+  padding: 30px;
+  background-color: #fde4e4;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.form input,
+.form textarea {
+  width: 100%;
+  padding: 7px 15px;
+  border: none;
+  margin-bottom: 5px;
+  background: transparent;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.form input:focus,
+.form textarea:focus {
+  outline: none;
+}
+.input-control {
+  border-bottom: 1px solid #a88080;
+}
+.active_review {
+  color: #df2020;
+}
+
+@media only screen and (max-width: 767px) {
+  .product_title_info {
+    font-size: 1.2rem;
+  }
+  .Product_price_info,
+  .Product_price_info span {
+    font-size: 1rem;
+  }
+
+  .product_category_info,
+  .product_category_info span {
+    font-size: 0.8rem;
+  }
+  .Tabs h6 {
+    font-size: 0.9rem;
+  }
+  .desc_title {
+    font-size: 0.8rem;
+  }
+  .desc_title {
+    margin-bottom: 30px !important;
+  }
+  .products_you_may_like_title {
+    font-size: 1.3rem;
+  }
+  .form {
+    width: 100%;
+  }
+  .small_imgs_sample {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+  }
+  .item_img {
+    display: flex;
+    justify-content: center !important;
+  }
+  .product_category_info {
+    margin-bottom: 30px;
+  }
+}

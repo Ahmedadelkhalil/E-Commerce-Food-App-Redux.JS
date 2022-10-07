@@ -1,0 +1,120 @@
+.contact_form_left,
+.contact_form_right {
+  background-color: #292c35;
+  color: #fff;
+}
+.contact_title {
+  font-size: 1.5rem;
+  color: #212245;
+  font-weight: 600;
+}
+.contact_text {
+  width: 50%;
+  margin: auto;
+  color: #212245;
+  line-height: 30px;
+}
+.contact_text span {
+  color: rgb(44, 92, 196);
+  font-weight: 600;
+}
+.contact_form_left input,
+.contact_form_right textarea {
+  border: none;
+  outline: none;
+  background: transparent;
+  border-bottom: 1px solid gray;
+  padding: 15px 7px;
+  color: #fff;
+  font-weight: 500;
+}
+.contact_form_left input:focus,
+.contact_form_right input:focus {
+  outline: transparent;
+}
+.contact_form_left input::placeholder,
+.contact_form_right input::placeholder {
+  color: dark gray;
+  font-weight: 600;
+}
+.contact_form_left p,
+.contact_form_right p {
+  margin-bottom: 0;
+}
+.text_top_contact_us {
+  padding: 50px;
+}
+.left_side {
+  border-right: 1px solid gray;
+}
+.contact_form_header {
+  position: relative;
+}
+.contact_form_header h4 {
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  position: relative;
+}
+.contact_form_header::before {
+  content: "";
+  position: absolute;
+  width: 70px;
+  height: 2px;
+  background-color: rgb(255, 123, 0);
+  bottom: -15px;
+  left: 0;
+}
+.not_robot_text {
+  text-transform: capitalize;
+}
+.checkB {
+  cursor: pointer;
+}
+.msg_word {
+  padding: 50px 0 0 20px;
+}
+.contact_form_right textarea {
+  padding-left: 20px;
+  border-bottom: none !important;
+}
+.contact_form_right {
+  position: relative;
+}
+.contact_form_right button {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgb(255, 123, 0);
+  color: #fff;
+  padding: 5px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border: none;
+  outline: none;
+}
+
+@media only screen and (max-width: 992px) {
+  .text_top_contact_us {
+    padding: 40px 10px !important;
+  }
+  .contact_form_header h4 {
+    font-size: 1.5rem !important;
+  }
+  .contact_text {
+    width: 80% !important;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .left_side {
+    border-right: none !important;
+    border-bottom: 1px solid gray;
+  }
+  .msg_word {
+    padding: 20px 0 0 13px;
+  }
+  .contact_form_right textarea {
+    padding-bottom: 200px;
+  }
+}

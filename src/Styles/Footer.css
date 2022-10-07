@@ -1,0 +1,130 @@
+.footer {
+  padding-top: 50px;
+  padding-bottom: 30px;
+  background-color: #fde4e4;
+}
+.footer__logo img {
+  width: calc(100% - 80%);
+  margin-bottom: 10px;
+}
+.footer__logo h5 {
+  font-size: 1rem;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+.footer__logo p {
+  font-size: 0.9rem;
+  color: #333;
+  line-height: 28px;
+}
+.Delivery__time-item {
+  background-color: transparent !important;
+}
+.Delivery__time-item span {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #212245;
+}
+.Delivery__time-item p {
+  color: #212245;
+}
+.footer__title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #212245;
+}
+.newsletter {
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  border: 1px solid #212245;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.newsletter input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: #212245;
+}
+.newsletter input:focus {
+  outline: none;
+}
+.newsletter input::placeholder {
+  color: #212245;
+}
+.newsletter span {
+  background-color: #df2020;
+  padding: 5px 20px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  cursor: pointer;
+}
+.newsletter span i {
+  color: #fff;
+}
+.social__links i {
+  padding: 5px;
+  background-color: #df2020;
+  color: #fff;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.social__links a {
+  text-decoration: none;
+}
+.copyright {
+  color: #df2020;
+  font-size: 0.8rem;
+}
+@media only screen and (max-width: 992px) {
+  .newsletter input {
+    padding: 7px;
+    font-size: 0.7rem;
+  }
+  .newsletter span {
+    padding: 4px 20px;
+    font-size: 0.7rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .Delivery__time-item p {
+    font-size: 0.7rem;
+    margin-bottom: 0;
+  }
+  .Delivery__time-item span {
+    font-size: 0.9rem;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .delivery,
+  .contact {
+    margin-bottom: 10px;
+  }
+  .social {
+    justify-content: center !important;
+    width: fit-content !important;
+    margin: auto !important;
+    margin-bottom: 10px !important;
+  }
+  .copyright {
+    font-size: 11px;
+    justify-content: center;
+    text-align: center;
+  }
+  .theEnd {
+    flex-direction: column-reverse;
+  }
+}

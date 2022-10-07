@@ -1,0 +1,27 @@
+.checkout_title {
+  font-size: 1.5rem;
+  color: #212245;
+}
+.price_calculating_area {
+  background-color: #fde4e4;
+  padding: 30px;
+}
+.gross-area {
+  padding-top: 30px;
+  border-top: 2px solid #fff;
+}
+.price_calculating_area h6 {
+  font-size: 0.8rem;
+}
+.gross-area h6 {
+  font-size: 1.3rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .price_calculating_area h6 {
+    font-size: 0.9rem;
+  }
+  .price_calculating_area {
+    margin-top: 60px;
+  }
+}

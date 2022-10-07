@@ -1,0 +1,141 @@
+.Feature__title,
+.Feature__subtitle span {
+  color: #df2020;
+}
+.Feature__text {
+  color: #777;
+}
+.Feature__item p {
+  color: #777;
+}
+.product__category {
+  background-color: #df2020;
+  text-align: center;
+  margin-top: 30px;
+  padding: 20px 0;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+.product__category button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: #fff;
+  padding: 7px 20px;
+}
+.product__category img {
+  width: 20px;
+  height: 20px;
+}
+.foodBtnActive {
+  color: #df2020 !important;
+  background-color: #fff !important;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.why-Tasty-Treat-Title span {
+  color: #df2020;
+}
+.why-Tasty-Treat-Text {
+  color: #777;
+  line-height: 28px;
+}
+.choose_us-title {
+  margin-bottom: 10px;
+  font-weight: 600 !important;
+}
+.choose_us-title i {
+  color: #df2020;
+  font-weight: 500 !important;
+}
+.choose_us-desc {
+  color: #777;
+}
+.testimonial__title,
+.testimonial__subtitle span {
+  color: #df2020;
+}
+.testimonial__desc {
+  color: #777;
+  line-height: 30px;
+}
+@media only screen and (max-width: 768px) {
+  .hero__content h5 {
+    font-size: 1rem;
+  }
+  .hero__content h1 {
+    font-size: 1.5rem;
+    line-height: 40px;
+  }
+  .hero__content p {
+    font-size: 0.9rem;
+    line-height: 25px;
+  }
+
+  .hero__btns button {
+    padding: 5px 15px;
+    font-size: 0.7rem;
+  }
+  .service__hero p {
+    font-size: 0.7rem !important;
+  }
+  .Feature__item p {
+    font-size: 0.8rem;
+    margin-bottom: 0;
+  }
+  .Feature__title {
+    font-size: 1rem;
+  }
+  .Feature__text {
+    font-size: 0.8rem;
+    margin-bottom: 0;
+  }
+  .product__category {
+    padding: 15px 0 !important;
+  }
+  .product__category button {
+    padding: 5px 5px !important;
+    font-size: 0.7rem !important;
+  }
+  /* ...................................... */
+  .why-Tasty-Treat-Title {
+    font-size: 1rem;
+  }
+  .why-Tasty-Treat-Text {
+    font-size: 0.8rem;
+    line-height: 25px;
+  }
+  .choose_us-title {
+    font-size: 0.8rem;
+  }
+  .choose_us-desc {
+    font-size: 0.7rem;
+  }
+  .testimonial__title {
+    font-size: 1rem;
+  }
+  .testimonial__subtitle,
+  .testimonial__desc {
+    font-size: 0.9rem;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .hero__content {
+    text-align: center;
+  }
+  .hero__btns {
+    justify-content: center;
+  }
+  .service__hero {
+    justify-content: center;
+  }
+  .why__us {
+    padding-top: 0 !important;
+  }
+}

@@ -1,0 +1,36 @@
+th,
+td {
+  text-align: center !important;
+}
+.table_image_cart_page {
+  width: 80px;
+}
+.table_image_cart_page img {
+  width: 100%;
+}
+.ri-delete-bin-line {
+  cursor: pointer;
+}
+.cart_page_btns a:hover {
+  color: #fff !important;
+}
+.cart_page_btns a,
+.cart_page_btns button {
+  border: none !important;
+  outline: none !important;
+}
+.subtotal_cart_page {
+  font-size: 1.3rem;
+  color: #212245;
+}
+.subtotal_cart_page span {
+  color: red;
+  font-size: 2rem;
+}
+
+@media only screen and (max-width: 768px) {
+  th,
+  td {
+    font-size: 0.8rem;
+  }
+}

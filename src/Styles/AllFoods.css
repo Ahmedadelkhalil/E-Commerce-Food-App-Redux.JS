@@ -1,0 +1,29 @@
+.search-widget,
+.sorting-widget select {
+  padding: 7px 15px;
+  border: 1px solid #fde4e4;
+  cursor: pointer;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.search-widget,
+.sorting-widget {
+  margin-bottom: 50px;
+}
+.search-widget input {
+  border: none;
+}
+.search-widget input:focus,
+.sorting-widget select:focus {
+  outline: none;
+}
+
+@media only screen and (max-width: 575px) {
+  .search-widget,
+  .sorting-widget {
+    margin-bottom: 20px;
+  }
+}

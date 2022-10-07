@@ -1,0 +1,20 @@
+.error_main_title {
+  width: 100%;
+  font-size: 100px;
+  background: url(https://colorlib.com/etc/404/colorlib-error-404-10/img/bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 900;
+}
+.erro_not_found_text {
+  font-weight: 600;
+  letter-spacing: 5px;
+}
+.error_desc {
+  color: #212245;
+  font-weight: 600;
+  letter-spacing: 2px;
+}

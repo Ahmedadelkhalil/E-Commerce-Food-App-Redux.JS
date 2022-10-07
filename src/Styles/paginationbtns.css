@@ -1,0 +1,25 @@
+.paginationbtns {
+  width: 80%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto;
+  padding: 7px;
+  list-style: none;
+}
+.paginationbtns a {
+  margin: 7px;
+  padding: 7px 20px;
+  background-color: #212245;
+  color: #fff !important;
+  cursor: pointer;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.paginationbtns a:hover {
+  background-color: #df2020;
+}
